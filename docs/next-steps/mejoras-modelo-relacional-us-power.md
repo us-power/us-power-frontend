@@ -1,4 +1,4 @@
-# BeEnergy — Mejoras al Modelo Relacional
+# US Power — Mejoras al Modelo Relacional
 **Fecha:** Mayo 2026  
 **Preparado por:** romina-iurchik  
 **Para:** el equipo (Tech Lead)  
@@ -145,7 +145,7 @@ ADD CONSTRAINT cooperatives_country_format
 
 ```sql
 -- ============================================
--- BeEnergy — Migration Wave #5
+-- US Power — Migration Wave #5
 -- Revisar con el equipo antes de ejecutar en prod
 -- ============================================
 

@@ -1,4 +1,4 @@
-# 4. BeEnergy — Arquitectura
+# 4. US Power — Arquitectura
 
 > v0.3.0 · Modelo cooperativo · Stellar Testnet
 
@@ -23,7 +23,7 @@
        │ POST /api/readings  →  POST /api/mint
        ▼
 ┌──────────────────────────────────────────────────┐
-│  Backend BeEnergy (Next.js API Routes)           │
+│  Backend US Power (Next.js API Routes)           │
 │                                                  │
 │  /api/cooperatives  → Supabase (gestión coops)   │
 │  /api/members       → Supabase (miembros)        │
@@ -69,7 +69,7 @@
 
 ## Integración con medidores
 
-La infraestructura de medición remota ya existe en Argentina. BeEnergy no instala hardware — se conecta a lo que la cooperativa ya tiene o va a tener (plazo regulatorio: diciembre 2028).
+La infraestructura de medición remota ya existe en Argentina. US Power no instala hardware — se conecta a lo que la cooperativa ya tiene o va a tener (plazo regulatorio: diciembre 2028).
 
 ### Fuentes de datos
 
@@ -141,9 +141,9 @@ No se necesita hardware nuevo. La cooperativa ya tiene medidores bidireccionales
 ## Monorepo
 
 ```
-be-energy/
+us-power/
 ├── apps/
-│   ├── web/                          # Next.js 16 (@be-energy/web)
+│   ├── web/                          # Next.js 16 (@us-power/web)
 │   │   ├── app/
 │   │   │   ├── dashboard/            # Dashboard cooperativa + miembro
 │   │   │   ├── admin/                # Panel admin cooperativa
@@ -237,7 +237,7 @@ be-energy/
 
 ---
 
-## Shared Package: @be-energy/stellar
+## Shared Package: @us-power/stellar
 
 | Módulo | Qué hace |
 |--------|----------|
@@ -274,7 +274,7 @@ be-energy/
 | | |
 |---|---|
 | **Plataforma** | Vercel |
-| **Build** | `pnpm turbo build --filter=@be-energy/web` |
+| **Build** | `pnpm turbo build --filter=@us-power/web` |
 | **Output** | `apps/web/.next` |
 | **Branch** | `main` |
 | **Workflow** | `develop` → PR → `main` |

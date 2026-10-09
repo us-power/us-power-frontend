@@ -1,6 +1,6 @@
 # 6. Contratos Soroban — Qué se queda y qué falta
 
-> BeEnergy v0.2.0 → v0.3.0
+> US Power v0.2.0 → v0.3.0
 > Objetivo: soporte multi-cooperativa
 
 > **Estado: Fase 1 completada (marzo 2026).** Los contratos energy_token y energy_distribution fueron refactorizados con Pausable + Upgradeable (OZ v0.5.1). 65 tests pasando. El nombre/símbolo del token es parametrizable, se agregó cooperative_id, se eliminó el módulo de privacidad. Factory y Registry quedan para Fase 2.
@@ -9,7 +9,7 @@
 
 ## Contexto
 
-HOW-IT-WORKS define que BeEnergy es dashboard de gestión + infraestructura de certificación para cooperativas. Cada cooperativa administra su propio sistema de proto-certificados energéticos. El objetivo es que cada cooperativa tenga su propio token y que eventualmente se pueda habilitar intercambio entre cooperativas.
+HOW-IT-WORKS define que US Power es dashboard de gestión + infraestructura de certificación para cooperativas. Cada cooperativa administra su propio sistema de proto-certificados energéticos. El objetivo es que cada cooperativa tenga su propio token y que eventualmente se pueda habilitar intercambio entre cooperativas.
 
 Los contratos actuales fueron diseñados para una sola comunidad ("Hive"). Este documento analiza qué sirve, qué hay que cambiar y qué hay que crear.
 

@@ -1,8 +1,8 @@
-# Branch Audit — BuenDia-Builders/be-energy
+# Branch Audit — US Power/us-power
 
 **Snapshot date:** 2026-09-25
-**Remote:** `origin` → `https://github.com/IFEANYIBRIGHT/be-energy.git`
-**GitHub repo:** `BuenDia-Builders/be-energy`
+**Remote:** `origin` → `https://github.com/IFEANYIBRIGHT/us-power.git`
+**GitHub repo:** `US Power/us-power`
 **Default branch:** `main` (protected)
 
 ---

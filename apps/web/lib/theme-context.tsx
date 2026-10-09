@@ -16,7 +16,7 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
   const [theme, setTheme] = useState<Theme>("light")
 
   useEffect(() => {
-    const savedTheme = localStorage.getItem("beenergy-theme") as Theme
+    const savedTheme = localStorage.getItem("uspower-theme") as Theme
     if (savedTheme) {
       setTheme(savedTheme)
       document.documentElement.classList.toggle("dark", savedTheme === "dark")
@@ -31,7 +31,7 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
   const toggleTheme = () => {
     const newTheme = theme === "light" ? "dark" : "light"
     setTheme(newTheme)
-    localStorage.setItem("beenergy-theme", newTheme)
+    localStorage.setItem("uspower-theme", newTheme)
     document.documentElement.classList.toggle("dark", newTheme === "dark")
   }
 

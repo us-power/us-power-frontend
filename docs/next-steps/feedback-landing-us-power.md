@@ -1,13 +1,13 @@
-# Feedback Landing Page — BeEnergy
+# Feedback Landing Page — US Power
 
-Hola! Estamos trabajando en mejorar la landing page de BeEnergy y queremos que quede lo mejor posible antes de la próxima demo.
+Hola! Estamos trabajando en mejorar la landing page de US Power y queremos que quede lo mejor posible antes de la próxima demo.
 
 Para poder hacer cambios concretos y no perder tiempo en suposiciones, necesitamos tu ayuda respondiendo estas preguntas. No hay respuestas correctas o incorrectas — lo que importa es tu perspectiva honesta.
 
 ---
 
 ## 1. Primera impresión
-Cuando entrás a https://be-energy-six.vercel.app, ¿qué entendés que hace el producto en los primeros 5 segundos?
+Cuando entrás a https://us-power-six.vercel.app, ¿qué entendés que hace el producto en los primeros 5 segundos?
 
 **Tu respuesta:**
 
@@ -37,7 +37,7 @@ El headline actual dice: *"Tu compromiso ambiental, verificable en blockchain."*
 ---
 
 ## 4. Lo que falta
-¿Hay algo importante sobre BeEnergy que NO está explicado en la página y debería estar?
+¿Hay algo importante sobre US Power que NO está explicado en la página y debería estar?
 
 **Tu respuesta:**
 

@@ -1,4 +1,4 @@
-# BeEnergy — Análisis de Coherencia: Flujo Ingreso Cooperativa vs ERD
+# US Power — Análisis de Coherencia: Flujo Ingreso Cooperativa vs ERD
 **Fecha:** Mayo 2026  
 **Preparado por:** romina-iurchik  
 **Para:** el equipo (Tech Lead)  

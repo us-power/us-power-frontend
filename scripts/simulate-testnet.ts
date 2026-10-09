@@ -518,7 +518,7 @@ async function step8_summary(users: SimUser[]) {
 
 async function main() {
   console.log("╔══════════════════════════════════════════════════════════╗");
-  console.log("║  BeEnergy — Simulación Testnet (10 usuarios)           ║");
+  console.log("║  US Power — Simulación Testnet (10 usuarios)           ║");
   console.log("╚══════════════════════════════════════════════════════════╝");
   console.log(`\n  API: ${API_BASE}`);
   console.log(`  Red: Stellar Testnet`);

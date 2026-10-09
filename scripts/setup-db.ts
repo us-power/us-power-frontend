@@ -16,7 +16,7 @@ const supabase = createClient(supabaseUrl, supabaseServiceKey)
 
 const SQL = `
 -- ============================================
--- BeEnergy Schema v2 — Certification Model
+-- US Power Schema v2 — Certification Model
 -- Handles both fresh installs and migrations
 -- ============================================
 

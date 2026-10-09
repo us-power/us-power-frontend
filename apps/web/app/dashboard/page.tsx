@@ -439,7 +439,7 @@ export default function DashboardPage() {
             </CardContent>
           </Card>
 
-          {/* 3. Impacto BeEnergy (global) */}
+          {/* 3. Impacto US Power (global) */}
           <Card className="mb-4 md:mb-6">
             <CardHeader>
               <div className="flex items-center gap-2">

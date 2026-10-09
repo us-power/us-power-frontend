@@ -1,4 +1,4 @@
-# 3. BeEnergy — Data Flow
+# 3. US Power — Data Flow
 
 > Cuando te pierdas con el producto, volvé acá.
 
@@ -6,7 +6,7 @@
 
 ## El producto en una oración
 
-**BeEnergy es un dashboard de gestión cooperativa + infraestructura de certificación on-chain que tokeniza energía renovable como proto-certificados verificables en Stellar, eliminando intermediarios centralizados y reduciendo costos de certificación.**
+**US Power es un dashboard de gestión cooperativa + infraestructura de certificación on-chain que tokeniza energía renovable como proto-certificados verificables en Stellar, eliminando intermediarios centralizados y reduciendo costos de certificación.**
 
 ---
 
@@ -124,7 +124,7 @@
            ▼
 ┌──────────────────────────────────────────────────────┐
 │                                                      │
-│   BEENERGY (nosotros)                                │
+│   US POWER (nosotros)                                │
 │                                                      │
 │   Infraestructura de certificación                   │
 │                                                      │

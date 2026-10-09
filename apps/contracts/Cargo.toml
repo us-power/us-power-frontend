@@ -8,10 +8,10 @@ members = [
 resolver = "2"
 
 [workspace.package]
-authors = ["BuenDia Builders"]
+authors = ["US Power"]
 edition = "2021"
 license = "Apache-2.0"
-repository = "https://github.com/BuenDia-Builders/be-energy"
+repository = "https://github.com/us-power"
 version = "0.1.0"
 
 [workspace.dependencies.soroban-sdk]

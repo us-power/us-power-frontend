@@ -1,4 +1,4 @@
-# 9. BeEnergy — Arquitectura para el Equipo
+# 9. US Power — Arquitectura para el Equipo
 
 > Actualización 16 de marzo 2026
 > v0.4.0 · Stellar Testnet
@@ -9,7 +9,7 @@
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                    BEENERGY — INGRESOS                      │
+│                    US POWER — INGRESOS                      │
 │                                                             │
 │  ┌─────────────────────┐    ┌────────────────────────────┐  │
 │  │  1. SaaS mensual    │    │  2. Comisión por venta     │  │
@@ -149,7 +149,7 @@
 └─────────────────────┘
 
 ┌─────────────────────┐
-│  SUPER ADMIN        │  Nosotras (BeEnergy)
+│  SUPER ADMIN        │  Nosotras (US Power)
 │                     │
 │  Qué hace:          │
 │  - Ve todas las cooperativas
@@ -336,7 +336,7 @@
 │  └─────────────────────────────────────────┘                        │
 │                                                                     │
 │  ┌─────────────────────────────────────────┐                        │
-│  │  @be-energy/stellar (shared package)    │                        │
+│  │  @us-power/stellar (shared package)    │                        │
 │  │  stellar-config  wallet  storage        │                        │
 │  └─────────────────────────────────────────┘                        │
 └───────────────────────────┬─────────────────────────────────────────┘
@@ -400,9 +400,9 @@
 ## 9. Monorepo — Estructura
 
 ```
-be-energy/
+us-power/
 ├── apps/
-│   ├── web/                          Next.js 16 (@be-energy/web)
+│   ├── web/                          Next.js 16 (@us-power/web)
 │   │   ├── app/
 │   │   │   ├── page.tsx              Landing
 │   │   │   ├── dashboard/            Dashboard miembro

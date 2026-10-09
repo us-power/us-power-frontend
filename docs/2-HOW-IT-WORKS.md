@@ -1,6 +1,6 @@
-# 2. BeEnergy
+# 2. US Power
 
-BeEnergy es un dashboard de gestión cooperativa + infraestructura de certificación de energía renovable on-chain. Ofrece a las cooperativas un panel para administrar su operación (miembros, medidores, lecturas, estadísticas) y tokeniza la producción de energía renovable como proto-certificados verificables en Stellar, vendibles a compradores externos.
+US Power es un dashboard de gestión cooperativa + infraestructura de certificación de energía renovable on-chain. Ofrece a las cooperativas un panel para administrar su operación (miembros, medidores, lecturas, estadísticas) y tokeniza la producción de energía renovable como proto-certificados verificables en Stellar, vendibles a compradores externos.
 
 ## El problema
 
@@ -13,16 +13,16 @@ La generación distribuida crece en Argentina. Cooperativas y comunidades instal
 - Empresas con metas ESG no pueden acceder fácilmente a certificados de generación distribuida en Latinoamérica.
 - El atributo ambiental de la generación renovable (el "verde" de la energía) se pierde o no se monetiza.
 
-## ¿Qué hace BeEnergy?
+## ¿Qué hace US Power?
 
-BeEnergy ofrece dos cosas a las cooperativas:
+US Power ofrece dos cosas a las cooperativas:
 
 1. **Dashboard de gestión** — Panel web para administrar la cooperativa: registrar miembros, medidores, ver lecturas y estadísticas de generación, gestionar certificados.
 2. **Certificación on-chain** — Tokeniza la producción renovable como proto-certificados verificables en Stellar (1 token = 1 kWh generado), vendibles a compradores externos.
 
 El token representa el **atributo ambiental** de la generación — no la electricidad física. Una empresa puede usar energía de red convencional pero comprar certificados para respaldar su operación como "renovable".
 
-| Sin BeEnergy | Con BeEnergy |
+| Sin US Power | Con US Power |
 |---|---|
 | Gestión manual en planillas | Dashboard web centralizado |
 | Generación sin registro verificable | Proto-certificados on-chain auditables |
@@ -89,7 +89,7 @@ Para convertirse en un REC formalmente reconocido necesita:
 ## ¿Quiénes participan?
 
 ### Cooperativa (nuestro cliente)
-La cooperativa genera energía renovable y usa BeEnergy para certificar esa producción. Administra el sistema, valida datos, gestiona miembros.
+La cooperativa genera energía renovable y usa US Power para certificar esa producción. Administra el sistema, valida datos, gestiona miembros.
 
 ### Miembros de la cooperativa
 Los miembros son participantes de la cooperativa energética. Según cada cooperativa pueden ser:
@@ -109,19 +109,19 @@ No se asume un modelo único — el sistema es flexible.
 
 El registro de certificados se implementa sobre Stellar:
 
-| Web2 (base de datos tradicional) | BeEnergy (Stellar blockchain) |
+| Web2 (base de datos tradicional) | US Power (Stellar blockchain) |
 |---|---|
 | Registro puede alterarse | Inmutable (nadie puede cambiar historial) |
-| Solo BeEnergy puede auditar | Auditable públicamente por cualquiera |
+| Solo US Power puede auditar | Auditable públicamente por cualquiera |
 | Requiere confiar en empresa | Verificable sin confianza (trustless) |
-| Si BeEnergy cierra, datos se pierden | Historial persiste on-chain independientemente |
+| Si US Power cierra, datos se pierden | Historial persiste on-chain independientemente |
 | Fees de intermediarios | Fees ~$0.00001 XLM por tx |
 | Proceso lento (días/semanas) | Settlement instantáneo (5 segundos) |
 
 **Ventajas técnicas Stellar:**
 - **Trazabilidad**: cada mint, transferencia y retiro es verificable on-chain.
 - **Inmutabilidad**: el historial no puede alterarse.
-- **Transparencia**: cualquier tercero puede auditar sin depender de BeEnergy.
+- **Transparencia**: cualquier tercero puede auditar sin depender de US Power.
 - **Fees bajos**: ~0.00001 XLM por transacción en Stellar.
 - **Interoperabilidad**: token SEP-41, estándar de Stellar, compatible con el ecosistema.
 - **Finalidad rápida**: 5 segundos por transacción
@@ -149,14 +149,14 @@ La blockchain es infraestructura invisible para el usuario final. Solo está par
 
 ## Modelo de negocio
 
-BeEnergy genera ingresos de dos fuentes:
+US Power genera ingresos de dos fuentes:
 
 1. **Suscripción SaaS** — por el dashboard de gestión cooperativa (planes Starter, Pro, Enterprise).
 2. **Comisión sobre venta de certificados** — porcentaje sobre cada proto-certificado vendido a compradores externos.
 
 Los ingresos de la venta de certificados benefician a la cooperativa y sus miembros.
 
-## Lo que BeEnergy no es
+## Lo que US Power no es
 
 - No es un mercado P2P de energía entre miembros.
 - No es un activo cripto ni un instrumento de inversión.

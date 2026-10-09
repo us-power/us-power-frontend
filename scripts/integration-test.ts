@@ -1,5 +1,5 @@
 /**
- * Integration test — circuito completo BeEnergy en Stellar Testnet
+ * Integration test — circuito completo US Power en Stellar Testnet
  *
  * Flujo real:
  *   1. Crear wallets + fondear con Friendbot
@@ -390,7 +390,7 @@ async function test5() {
 
 async function main() {
   console.log("═══════════════════════════════════════════════════")
-  console.log("  BeEnergy Integration Test — Stellar Testnet")
+  console.log("  US Power Integration Test — Stellar Testnet")
   console.log("═══════════════════════════════════════════════════")
   console.log(`  Contract: ${CONTRACT}`)
   console.log(`  RPC:      ${RPC_URL}`)

@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Generate 8 simple, contributor-friendly GitHub issue markdown files for BeEnergy
+# Generate 8 simple, contributor-friendly GitHub issue markdown files for US Power
 # Run from repo root: ./tooling/scripts/generate-issues.sh
 
 set -e

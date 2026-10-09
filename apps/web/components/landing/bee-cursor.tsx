@@ -48,7 +48,7 @@ export default function BeeCursor() {
   return (
     <img
       ref={beeRef}
-      src="/beenergy-assets/iso-transparente.png"
+      src="/us-power-assets/iso-transparente.png"
       alt=""
       className="fixed top-0 left-0 z-40 pointer-events-none hidden md:block"
       style={{ width: 60, height: 60, willChange: "transform" }}

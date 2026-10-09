@@ -8,31 +8,31 @@
 
 ## Title
 
-**BeEnergy: Hardware-to-Blockchain Pipeline for Community Solar Trading**
+**US Power: Hardware-to-Blockchain Pipeline for Community Solar Trading**
 
 ---
 
 ## Project URL
 
-https://github.com/BuenDia-Builders/be-energy
+https://github.com/us-power
 
 ---
 
 ## Architecture / Demo URL
 
-https://be-energy-six.vercel.app
+https://us-power-six.vercel.app
 
 ---
 
 ## Elevator Pitch
 
-BeEnergy connects physical solar infrastructure to the Stellar blockchain so neighbors can actually trade the energy they produce. The smart contracts, the backend, and the frontend are already built and working end to end. What's missing is the hardware bridge — a real smart meter on someone's roof feeding data into our on-chain minting pipeline. This grant funds that last mile.
+US Power connects physical solar infrastructure to the Stellar blockchain so neighbors can actually trade the energy they produce. The smart contracts, the backend, and the frontend are already built and working end to end. What's missing is the hardware bridge — a real smart meter on someone's roof feeding data into our on-chain minting pipeline. This grant funds that last mile.
 
 ---
 
 ## What does this project do?
 
-BeEnergy is a peer-to-peer energy marketplace for cooperative housing communities. Homes with solar panels tokenize their surplus generation as HoneyDrops (HDROP) — 1 kWh equals 1 token — and trade them directly with neighbors through Soroban smart contracts.
+US Power is a peer-to-peer energy marketplace for cooperative housing communities. Homes with solar panels tokenize their surplus generation as HoneyDrops (HDROP) — 1 kWh equals 1 token — and trade them directly with neighbors through Soroban smart contracts.
 
 The full software stack works today:
 - 3 Soroban contracts on testnet (EnergyToken, EnergyDistribution, CommunityGovernance)
@@ -74,7 +74,7 @@ Most blockchain energy projects stop at the dashboard. They show pretty charts a
 
 ## How does this project benefit the Stellar ecosystem?
 
-Every kWh traded through BeEnergy is a Stellar transaction. For a 5-home pilot generating and trading daily, that's roughly 150 transactions per month — small, but real and recurring. Scale to 50 communities and you're looking at thousands of organic, non-speculative transactions per day.
+Every kWh traded through US Power is a Stellar transaction. For a 5-home pilot generating and trading daily, that's roughly 150 transactions per month — small, but real and recurring. Scale to 50 communities and you're looking at thousands of organic, non-speculative transactions per day.
 
 More importantly, this is the kind of use case that makes blockchain tangible for normal people. A neighbor who sees their solar tokens arrive every morning doesn't need to understand Soroban — they just know the system works. That's how you get adoption outside the crypto-native crowd.
 
@@ -125,7 +125,7 @@ For a second pilot (10 homes): ~$1,800–2,200.
 - 2 product managers (community relations, operations)
 - External contractors as needed for hardware installation and LoRaWAN network setup
 
-The team works at partial compensation because we believe in this project. We're building BeEnergy because we want cooperative communities to have real tools for energy independence — the grant supplements our commitment, it doesn't replace it.
+The team works at partial compensation because we believe in this project. We're building US Power because we want cooperative communities to have real tools for energy independence — the grant supplements our commitment, it doesn't replace it.
 
 ---
 
@@ -152,7 +152,7 @@ The team works at partial compensation because we believe in this project. We're
 **Deliverable:** Hardware procured and working in lab environment
 
 - LoRaWAN gateway + 2 pulse counter sensors purchased, received, and assembled
-- Sensor → Gateway → BeEnergy API pipeline operational on a bench test
+- Sensor → Gateway → US Power API pipeline operational on a bench test
 - Backend receives hardware readings and auto-triggers HDROP minting (testnet)
 - Data validation layer: sanity checks on kWh values, duplicate detection, tamper alerts
 - Hardware setup documentation written
@@ -224,7 +224,7 @@ The team works at partial compensation because we believe in this project. We're
 
 ## Links
 
-- **Live app:** https://be-energy-six.vercel.app
-- **GitHub:** https://github.com/BuenDia-Builders/be-energy
+- **Live app:** https://us-power-six.vercel.app
+- **GitHub:** https://github.com/us-power
 - **Hackathon:** https://dorahacks.io/buidl/36793
-- **Backend docs:** https://github.com/BuenDia-Builders/be-energy/blob/main/docs/backend-setup.md
+- **Backend docs:** https://github.com/us-power/us-power-frontend/blob/main/docs/backend-setup.md

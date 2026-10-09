@@ -1,5 +1,5 @@
 {
-  "buildCommand": "pnpm turbo build --filter=@be-energy/web",
+  "buildCommand": "pnpm turbo build --filter=@us-power/web",
   "outputDirectory": "apps/web/.next",
   "installCommand": "pnpm install",
   "framework": "nextjs"

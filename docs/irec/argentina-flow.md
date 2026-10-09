@@ -1,8 +1,8 @@
 # Argentine I-REC(E) / I-TRACK flow (IRAM + Evident) — desk research
 
-> Scope: map the real certification pipeline in Argentina so BeEnergy knows where an
+> Scope: map the real certification pipeline in Argentina so US Power knows where an
 > external preparation tool stops. This document describes the official flow only.
-> It does not design any product, and BeEnergy is not described here as an issuer
+> It does not design any product, and US Power is not described here as an issuer
 > or a certificate of any kind.
 
 
@@ -131,14 +131,14 @@ The content of `SD-01: Authorised Issuing Countries` (which would list any Argen
 
 ---
 
-## BeEnergy boundary — where IRAM/Evident end and a prep tool may start
+## US Power boundary — where IRAM/Evident end and a prep tool may start
 
 - The actors that **decide** anything are fixed by the Code: **Issuer (IRAM)** registers facilities and approves Issue Requests (§§7.4–7.5, 8.7–8.8); **Evident** manages the Code and operates the Registry (§§4.2–4.3); **Production Auditors / Verification Agents** provide independent validation (§§7.4, 8.5.5); **Registrants and Participants** are market entities under Standard Terms (§§6, 20.4).
 - An external preparation tool may operate outside the official I-REC(E) certification and Registry processes, for example by gathering plant data, assembling SF-02/SF-04 documentation, checking production-period eligibility (§8.2), or tracking internal readiness. It cannot pre-approve, accelerate, or substitute any Issuer, Auditor, Verifier, or Registry decision. Data and documents maintained by such a tool remain external preparation material and do not become I-REC(E) Registry records or Issuer-approved submissions by virtue of being stored there.
-- BeEnergy is **not** an Issuer, **not** a certifier, **not** a verifier or auditor, and **not** a Registry/Platform Operator in the I-REC(E) system. Nothing in this repository confers accreditation under the Standard (accreditation: §§3.5, 15–16), and this document must not be read as claiming any such role.
+- US Power is **not** an Issuer, **not** a certifier, **not** a verifier or auditor, and **not** a Registry/Platform Operator in the I-REC(E) system. Nothing in this repository confers accreditation under the Standard (accreditation: §§3.5, 15–16), and this document must not be read as claiming any such role.
 
 ## On-chain / Stellar records are not identified as accepted evidence
 
 - The Code identifies two main evidence routes for issuance: direct measurement data under the §8.5.1 hierarchy (with settlement metering preferred), and indirect evidence through an Approved Tracking Scheme with cancellation in the source system (§§8.1, 8.3, 8.5.10). Both are subject to independent verification (§8.5.5) and Issuer approval (§8.7).
-- No on-chain, Stellar, token, or NFT record appears among the evidence channels identified by the Code. Platforms "do not constitute a primary record of custody" (§4.10). This document therefore makes no claim that tokenised representations, Soroban contracts, or BeEnergy-internal ledger records would be accepted as evidence for an Issue Request. They are not part of the official system described above.
+- No on-chain, Stellar, token, or NFT record appears among the evidence channels identified by the Code. Platforms "do not constitute a primary record of custody" (§4.10). This document therefore makes no claim that tokenised representations, Soroban contracts, or US Power-internal ledger records would be accepted as evidence for an Issue Request. They are not part of the official system described above.
 - Likewise, only **Registry-produced Redemption Statements** count as disclosure evidence (§10.6) — no third-party extract, dashboard, or chain explorer view qualifies.

@@ -15,7 +15,7 @@ const supabase = createClient(supabaseUrl, supabaseServiceKey)
 
 const SQL = `
 -- ============================================
--- BeEnergy RLS Policies (defense in depth)
+-- US Power RLS Policies (defense in depth)
 -- Service role key bypasses all RLS — this is expected for API routes
 -- ============================================
 

@@ -3,7 +3,7 @@
 import type React from "react"
 import { createContext, useContext, useState, useEffect, useCallback, useRef } from "react"
 import type { Horizon } from "@stellar/stellar-sdk"
-import { storage } from "@be-energy/stellar"
+import { storage } from "@us-power/stellar"
 import type { StellarWalletsKit } from "@creit.tech/stellar-wallets-kit"
 import {
   connectWallet as stellarConnect,
@@ -11,7 +11,7 @@ import {
   fetchBalances,
   wallet,
   type MappedBalances,
-} from "@be-energy/stellar"
+} from "@us-power/stellar"
 
 interface UserProfile {
   name: string

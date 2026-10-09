@@ -69,7 +69,7 @@ export default function AdminPage() {
           <div className="mb-6">
             <h1 className="text-2xl md:text-3xl font-bold">Admin Panel</h1>
             <p className="text-muted-foreground mt-1 text-sm">
-              Manage HDROP token issuance for the BeEnergy cooperative.
+              Manage HDROP token issuance for the US Power cooperative.
             </p>
           </div>
           <MintTokenPanel />

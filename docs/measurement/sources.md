@@ -45,7 +45,7 @@ Un medidor bidireccional fuera de servicio, descalibrado o no habilitado hace qu
 
 ---
 
-## Jerarquía para BeEnergy
+## Jerarquía para US Power
 
 A efectos de la emisión de proto-certificados, la jerarquía de fuentes es:
 

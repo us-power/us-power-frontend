@@ -3,8 +3,8 @@
 
 @custom-variant dark (&:is(.dark *));
 
-/* ─── BE ENERGY BRAND DESIGN SYSTEM ────────────────────────────────────────
-   Source: https://buendia-builders.github.io/be-energy/brand/
+/* ─── US POWER BRAND DESIGN SYSTEM ────────────────────────────────────────
+   Source: docs/brand/index.html
    Palette: Deep Navy · Ocean Teal · Midnight · Solar Gold · Cloud · Slate
    Typography: IBM Plex Sans — 400 / 500 / 600 / 700
    Grid: 8px base unit · 12 cols · 24px gutter · 1200px max-width

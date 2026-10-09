@@ -75,7 +75,7 @@ export function MobileSidebar() {
           {/* Logo */}
           <div className="p-6 border-b border-sidebar-border">
             <Link href="/dashboard" className="flex items-center gap-3">
-              <img src="/beenergy-assets/BeEnergy-logo-white.svg" alt="BeEnergy" className="h-7 w-auto" />
+              <img src="/us-power-assets/us-power-logo-white.svg" alt="US Power" className="h-7 w-auto" />
             </Link>
           </div>
 

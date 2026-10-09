@@ -1,7 +1,7 @@
 # Soroban Contract Test Suite Audit & Gap Analysis
 
 ## Executive Summary
-This document provides a comprehensive audit and gap analysis of the Soroban smart contract test suites (`energy_token`, `energy_distribution`, `community_governance`, and `cooperative_factory`) within the `be-energy` repository. It identifies tested behaviors, security/validation gaps (specifically around permissions, double-mint, replay attacks, negative/zero amounts, and auth mocking), fragile test patterns, and core system invariants that must be preserved during future refactoring or semantic renaming.
+This document provides a comprehensive audit and gap analysis of the Soroban smart contract test suites (`energy_token`, `energy_distribution`, `community_governance`, and `cooperative_factory`) within the `us-power` repository. It identifies tested behaviors, security/validation gaps (specifically around permissions, double-mint, replay attacks, negative/zero amounts, and auth mocking), fragile test patterns, and core system invariants that must be preserved during future refactoring or semantic renaming.
 
 ---
 

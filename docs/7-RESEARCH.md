@@ -1,4 +1,4 @@
-# 7. BeEnergy — Investigación
+# 7. US Power — Investigación
 
 Respaldo regulatorio y técnico de las decisiones de producto.
 
@@ -38,7 +38,7 @@ Argentina usa **Net Billing** (Balance Neto de Facturación):
 
 Proveedor de Servicios de Activos Virtuales. Aplica si custodiás activos de terceros, facilitás trading, o emitís tokens comerciables.
 
-**BeEnergy Fase 1-3:** No aplica. El token es un proto-certificado operativo de la cooperativa, no un activo especulativo.
+**US Power Fase 1-3:** No aplica. El token es un proto-certificado operativo de la cooperativa, no un activo especulativo.
 
 **Fase 4 (inter-cooperativa):** Requiere consulta legal previa.
 
@@ -50,7 +50,7 @@ Proveedor de Servicios de Activos Virtuales. Aplica si custodiás activos de ter
 
 Primer sistema de autoconsumo virtual comunitario en Argentina.
 
-| | Xcapit/EPEC | BeEnergy |
+| | Xcapit/EPEC | US Power |
 |---|---|---|
 | Blockchain | Polygon (Solidity) | Stellar (Soroban) |
 | Tokens | 3: PUG (participación), ERI (energía), sustentabilidad (→REC) | 1 por cooperativa (simple) |

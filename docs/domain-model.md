@@ -7,7 +7,7 @@
 
 ## 0. Advertencia crítica
 
-Un token de BeEnergy **no es** un I-REC, **no es** un certificado ESG, y **no constituye** una declaración de Scope 2.
+Un token de US Power **no es** un I-REC, **no es** un certificado ESG, y **no constituye** una declaración de Scope 2.
 
 En Argentina, **IRAM** es el único organismo autorizado para emitir certificados I-TRACK (E) / I-REC, y cada certificado representa 1 MWh de atributos ambientales [IRAM I-TRACK page]. El registro global es operado por Evident.
 
@@ -200,7 +200,7 @@ Un Usuario-Generador bajo Ley 27.424 **no obtiene I-REC automáticamente**. Debe
 
 3. ¿Cómo se resuelve la titularidad de atributos ambientales cuando un Usuario-Generador bajo Ley 27.424 también registra su planta para I-REC? ¿Hay riesgo de doble conteo entre el crédito monetario del balance neto y el certificado ambiental?
 
-4. El repositorio modela "certificates" en `apps/web/app/api/certificates/`. ¿Esos endpoints deben reinterpretarse como créditos internos de BeEnergy, o deben eliminarse en favor de una integración separada con el registro de IRAM?
+4. El repositorio modela "certificates" en `apps/web/app/api/certificates/`. ¿Esos endpoints deben reinterpretarse como créditos internos de US Power, o deben eliminarse en favor de una integración separada con el registro de IRAM?
 
 5. ¿El admin de una cooperativa debe ser un prosumidor registrado? La pregunta queda abierta en `docs/next-steps/analisis-flujo-cooperativa-vs-erd.md`; el modelo legal de UG Comunitario sugiere que sí, porque los participantes son usuarios del mismo distribuidor [Res. 287/2025].
 
@@ -225,6 +225,6 @@ Un Usuario-Generador bajo Ley 27.424 **no obtiene I-REC automáticamente**. Debe
 
 ## 6. Nota final para revisores
 
-Este documento reemplaza conceptualmente el vocabulario de "proto-certificado", "comprador externo" y "token = atributo ambiental" usado en `docs/2-HOW-IT-WORKS.md`. Bajo el marco argentino, un token de BeEnergy es una unidad de contabilidad interna de la plataforma. El atributo ambiental transferible en Argentina se emite a través de IRAM y se registra en Evident.
+Este documento reemplaza conceptualmente el vocabulario de "proto-certificado", "comprador externo" y "token = atributo ambiental" usado en `docs/2-HOW-IT-WORKS.md`. Bajo el marco argentino, un token de US Power es una unidad de contabilidad interna de la plataforma. El atributo ambiental transferible en Argentina se emite a través de IRAM y se registra en Evident.
 
 Si un feature futuro necesita hacer una declaración ambiental, debe ir por IRAM — no por el contrato `energy_token`.

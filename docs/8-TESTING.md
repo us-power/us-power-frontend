@@ -1,4 +1,4 @@
-# 8. Testing — BeEnergy
+# 8. Testing — US Power
 
 Última actualización: **2026-03-07**
 Red: **Stellar Testnet**

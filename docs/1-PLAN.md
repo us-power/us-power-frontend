@@ -1,10 +1,10 @@
-# 1. BeEnergy — Plan de Producto
+# 1. US Power — Plan de Producto
 
 ## ¿Qué es?
 
 Infraestructura de certificación de energía renovable on-chain y dashboard de gestión para cooperativas eléctricas argentinas. Tokeniza la producción de energía renovable como proto-certificados verificables en Stellar, vendibles a compradores externos.
 
-## ¿Cómo gana plata BeEnergy?
+## ¿Cómo gana plata US Power?
 
 Dos fuentes de ingresos:
 
@@ -21,7 +21,7 @@ Dos fuentes de ingresos:
 
 ## Fase 1 — 1 cooperativa piloto
 
-**Objetivo:** Una cooperativa real gestiona su generación con BeEnergy en Testnet. Proto-certificados emitidos y verificables on-chain.
+**Objetivo:** Una cooperativa real gestiona su generación con US Power en Testnet. Proto-certificados emitidos y verificables on-chain.
 
 **Contratos Soroban:**
 - `energy_token` — SEP-41 parametrizable (nombre, símbolo, cooperative_id). 1 token = 1 kWh. Pausable + Upgradeable
@@ -58,7 +58,7 @@ Se retira el certificado (burn) → Evita doble conteo
 
 ## Fase 2 — Medidores inteligentes + multi-cooperativa
 
-**Objetivo:** Múltiples cooperativas operan independientemente con BeEnergy. Cada cooperativa gestiona sus propios miembros y certificados (intra-cooperativa). Ingesta automática de medidores.
+**Objetivo:** Múltiples cooperativas operan independientemente con US Power. Cada cooperativa gestiona sus propios miembros y certificados (intra-cooperativa). Ingesta automática de medidores.
 
 **Contratos nuevos:**
 - `cooperative_factory` — Despliega token + distribution + governance en 1 tx

@@ -1,6 +1,6 @@
 # 5. Soroban Contracts Reference
 
-> BeEnergy v0.3.0
+> US Power v0.3.0
 
 ## Contratos actuales
 
@@ -165,7 +165,7 @@ pub struct CooperativeInfo {
 Admin: `GCHCYTHV4JSIJNCN56EIEXZNTB6JUHYX25FTSYFOM4DDVGV7UXWOHLCW`
 
 Constructor params:
-- Token: `name="BeEnergy Piloto"`, `symbol="BEPIL"`, `cooperative_id="coop-piloto-001"`
+- Token: `name="US Power Piloto"`, `symbol="BEPIL"`, `cooperative_id="coop-piloto-001"`
 - Distribution: `required_approvals=1`
 
 ---

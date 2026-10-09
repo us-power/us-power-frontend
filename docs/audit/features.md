@@ -1,4 +1,4 @@
-# BeEnergy — Existing features inventory
+# US Power — Existing features inventory
 
 ## How to read this
 

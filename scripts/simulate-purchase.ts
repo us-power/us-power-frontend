@@ -417,7 +417,7 @@ async function paso7() {
 
 async function main() {
   console.log("═══════════════════════════════════════════════════════════════")
-  console.log("  BeEnergy — Simulacro de compra de certificado")
+  console.log("  US Power — Simulacro de compra de certificado")
   console.log("═══════════════════════════════════════════════════════════════")
   console.log()
   console.log("  Escenario:")

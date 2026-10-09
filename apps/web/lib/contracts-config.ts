@@ -1,5 +1,5 @@
 /**
- * Configuración de los contratos de BeEnergy
+ * Configuración de los contratos de US Power
  *
  * IMPORTANTE: Actualiza estas direcciones después de deployar los contratos
  */

@@ -16,7 +16,7 @@ const ibmPlexSans = IBM_Plex_Sans({
 })
 
 export const metadata: Metadata = {
-  title: "BeEnergy - Energía Verde Tokenizada",
+  title: "US Power - Energía Verde Tokenizada",
   description: "Genera energía renovable y certifícala como activo digital trazable en blockchain Stellar",
   icons: {
     icon: "/favicon.png",

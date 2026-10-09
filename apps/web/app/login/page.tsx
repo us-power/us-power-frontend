@@ -80,7 +80,7 @@ export default function LoginPage() {
         maxWidth: 560,
       }}>
         <a href="/" style={{ display: "inline-block", marginBottom: 64 }}>
-          <img src="/beenergy-assets/BeEnergy-logo-primary.svg" alt="BeEnergy" style={{ height: 28 }} />
+          <img src="/us-power-assets/us-power-logo-primary.svg" alt="US Power" style={{ height: 28 }} />
         </a>
 
         <h1 style={{ fontSize: "clamp(2rem, 4vw, 2.75rem)", fontWeight: 700, letterSpacing: "-0.03em", color: "#0F172A", marginBottom: 12, lineHeight: 1.1 }}>
@@ -158,7 +158,7 @@ export default function LoginPage() {
         <div style={{ marginTop: 16, padding: "12px 14px", background: "#F1F5F9", borderRadius: 8, border: "1px solid #E2E8F0" }}>
           <p style={{ fontSize: 12, color: "#64748B", margin: 0, lineHeight: 1.6 }}>
             <span style={{ fontWeight: 600, color: "#0F172A" }}>Demo:</span>{" "}
-            demo@beenergy.coop{" "}
+            demo@uspower.coop{" "}
             <span style={{ color: "#CBD5E1" }}>·</span>{" "}
             Demo2026!
           </p>
@@ -238,8 +238,8 @@ export default function LoginPage() {
               Cooperativa Solar<br />Andina Sur · 2026
             </p>
             <div style={{ marginTop: 20, display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-              <img src="/beenergy-assets/BeEnergy-logo-white.svg" alt="BeEnergy" style={{ height: 13 }} />
-              <span style={{ fontSize: 7, color: "rgba(255,255,255,0.2)", letterSpacing: "0.1em" }}>beenergy.coop</span>
+              <img src="/us-power-assets/us-power-logo-white.svg" alt="US Power" style={{ height: 13 }} />
+              <span style={{ fontSize: 7, color: "rgba(255,255,255,0.2)", letterSpacing: "0.1em" }}>uspower.coop</span>
             </div>
           </div>
         </div>

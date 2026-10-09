@@ -1,4 +1,4 @@
-# QA Report — BeEnergy v0.4.2 (Wave #5)
+# QA Report — US Power v0.4.2 (Wave #5)
 
 **Fecha última actualización:** Junio 2026  
 **Testeado por:** romina-iurchik  
@@ -28,7 +28,7 @@
 /consumption              → Historial de generación
 /certificates             → Certificados de energía
 /dashboard/cooperative    → Panel admin cooperativa
-/dashboard/admin          → Panel super admin (BeEnergy)
+/dashboard/admin          → Panel super admin (US Power)
 ```
 
 ---

@@ -29,7 +29,7 @@ function HexPattern({ id, stroke = "rgba(0,83,122,0.35)" }: { id: string; stroke
   )
 }
 
-// ── Certificate card — Social Card from Brand Identity (visual signature of BeEnergy) ──
+// ── Certificate card — Social Card from Brand Identity (visual signature of US Power) ──
 function CertCard() {
   return (
     <div
@@ -64,8 +64,8 @@ function CertCard() {
       </div>
       {/* Footer */}
       <div style={{ position: "relative", zIndex: 1, display: "flex", alignItems: "center", justifyContent: "space-between" }}>
-        <img src="/beenergy-assets/BeEnergy-logo-white.svg" alt="BeEnergy" style={{ height: 16 }} />
-        <span style={{ fontSize: 8, color: "rgba(255,255,255,0.2)", letterSpacing: "0.1em" }}>beenergy.coop</span>
+        <img src="/us-power-assets/us-power-logo-white.svg" alt="US Power" style={{ height: 16 }} />
+        <span style={{ fontSize: 8, color: "rgba(255,255,255,0.2)", letterSpacing: "0.1em" }}>uspower.coop</span>
       </div>
     </div>
   )
@@ -113,13 +113,13 @@ const PERSONALITY = [
   { word: "Transparent", desc: "Sin registros opacos ni intermediarios. El proceso de emisión y validación es abierto, auditable y accesible para todos." },
   { word: "Pioneering", desc: "Primera infraestructura de atributos ambientales energéticos sobre Stellar. Construimos el estándar, no lo seguimos." },
   { word: "Precise", desc: "1 token = 1 kWh. Sin ambigüedad, sin aproximación. La precisión es el núcleo del valor que entregamos." },
-  { word: "Sustainable", desc: "No es greenwashing, es evidencia verificable. BeEnergy existe para que las cooperativas puedan demostrar su impacto real." },
+  { word: "Sustainable", desc: "No es greenwashing, es evidencia verificable. US Power existe para que las cooperativas puedan demostrar su impacto real." },
   { word: "Enterprise", desc: "Diseñado para compradores institucionales, fondos ESG y mercados de atributos ambientales. Serio, escalable, global." },
 ]
 
 const STEPS = [
   { num: "01", title: "La cooperativa registra su generación eléctrica.", desc: "Datos de producción ingresados en la plataforma, manual o mediante integración." },
-  { num: "02", title: "La energía producida es validada.", desc: "BeEnergy verifica la información conforme a su metodología antes de proceder." },
+  { num: "02", title: "La energía producida es validada.", desc: "US Power verifica la información conforme a su metodología antes de proceder." },
   { num: "03", title: "Se emite un certificado digital único.", desc: "Cada certificado recibe un identificador único y queda registrado en blockchain Stellar." },
   { num: "04", title: "Las empresas adquieren y retiran certificados.", desc: "Para respaldar sus compromisos ambientales. Cada retiro es definitivo e irreversible." },
 ]
@@ -132,13 +132,13 @@ const AUDIENCES = [
 ]
 
 const FAQ = [
-  { q: "¿Qué es un Certificado BeEnergy?", a: "Representa un volumen específico de energía renovable verificada por una cooperativa participante. Cada activo tiene un identificador único y un historial trazable desde su emisión hasta su retiro." },
-  { q: "¿Es un crédito de carbono?", a: "No. Los certificados BeEnergy acreditan atributos ambientales de generación de energía renovable — el origen y la cantidad de energía producida. Un crédito de carbono representa reducción o captura de emisiones. Son instrumentos distintos con finalidades distintas." },
-  { q: "¿Quién valida la información?", a: "La generación registrada es verificada mediante la metodología definida por BeEnergy antes de emitir cualquier activo. El proceso está documentado y es auditable por terceros." },
+  { q: "¿Qué es un Certificado US Power?", a: "Representa un volumen específico de energía renovable verificada por una cooperativa participante. Cada activo tiene un identificador único y un historial trazable desde su emisión hasta su retiro." },
+  { q: "¿Es un crédito de carbono?", a: "No. Los certificados US Power acreditan atributos ambientales de generación de energía renovable — el origen y la cantidad de energía producida. Un crédito de carbono representa reducción o captura de emisiones. Son instrumentos distintos con finalidades distintas." },
+  { q: "¿Quién valida la información?", a: "La generación registrada es verificada mediante la metodología definida por US Power antes de emitir cualquier activo. El proceso está documentado y es auditable por terceros." },
   { q: "¿Por qué blockchain?", a: "Porque garantiza un historial inmutable, trazable y verificable sin depender de un único intermediario. Una vez registrado, ningún actor puede modificar el estado de un activo sin que quede evidencia." },
   { q: "¿Qué significa retirar un certificado?", a: "Significa que una empresa utilizó ese activo para respaldar un compromiso ambiental. Una vez retirado, queda marcado como usado de forma definitiva — esto elimina el doble conteo estructuralmente." },
   { q: "¿Puede verificarse externamente?", a: "Sí. Cualquier persona puede consultar el historial y la autenticidad de cualquier activo en cualquier momento, sin necesidad de acceder a sistemas propietarios." },
-  { q: "¿Quién puede emitir certificados?", a: "Las cooperativas energéticas registradas que cumplan con el proceso de validación de BeEnergy y operen conforme a la metodología de registro." },
+  { q: "¿Quién puede emitir certificados?", a: "Las cooperativas energéticas registradas que cumplan con el proceso de validación de US Power y operen conforme a la metodología de registro." },
   { q: "¿Qué información queda on-chain?", a: "El identificador del activo y la información necesaria para verificar su autenticidad e integridad. Los datos operativos y la documentación de respaldo permanecen off-chain, referenciados por hash." },
 ]
 
@@ -202,7 +202,7 @@ export default function LandingPage() {
         <HexPattern id="hexnav" stroke="rgba(255,255,255,0.055)" />
         <div className="max-w-7xl mx-auto px-6 md:px-12 h-16 flex items-center gap-8" style={{ position: "relative", zIndex: 1 }}>
           <a href="/" className="shrink-0">
-            <img src="/beenergy-assets/BeEnergy-logo-white.svg" alt="BeEnergy" className="h-6 w-auto" />
+            <img src="/us-power-assets/us-power-logo-white.svg" alt="US Power" className="h-6 w-auto" />
           </a>
           <nav className="hidden md:flex items-center gap-7 ml-auto">
             {[
@@ -313,14 +313,14 @@ export default function LandingPage() {
                 Cuando la información no puede verificarse de forma independiente, la confianza se pierde.
               </p>
               <p style={{ color: "rgba(255,255,255,0.85)", fontWeight: 600 }}>
-                BeEnergy existe para hacer visible lo que ya sucede: la generación real de energía limpia.
+                US Power existe para hacer visible lo que ya sucede: la generación real de energía limpia.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* ══ QUÉ ES BEENERGY — white + phone mockup ═══════════════════════ */}
+      {/* ══ QUÉ ES US POWER — white + phone mockup ═══════════════════════ */}
       <section style={{ background: "#FFFFFF", padding: "96px 0" }}>
         <div className="max-w-7xl mx-auto px-6 md:px-12">
           <div className="flex flex-col lg:flex-row items-start gap-16 lg:gap-24">
@@ -328,13 +328,13 @@ export default function LandingPage() {
             {/* Left — text */}
             <div className="flex-1 max-w-xl reveal">
               <span style={{ fontSize: 9, fontWeight: 600, letterSpacing: "0.22em", textTransform: "uppercase", color: "#00537A", display: "block", marginBottom: 28 }}>
-                Qué es BeEnergy
+                Qué es US Power
               </span>
               <h2 style={{ fontSize: "clamp(1.6rem, 3.5vw, 2.5rem)", fontWeight: 700, letterSpacing: "-0.025em", lineHeight: 1.15, color: "#0F172A", marginBottom: 32 }}>
                 La infraestructura digital para registrar y verificar energía renovable.
               </h2>
               <p style={{ fontSize: "1.0625rem", lineHeight: 1.72, color: "#64748B", marginBottom: 28 }}>
-                BeEnergy es la infraestructura digital que convierte la generación real de energía renovable
+                US Power es la infraestructura digital que convierte la generación real de energía renovable
                 en registros verificables. Cada activo emitido conserva un historial que permite conocer:
               </p>
               <ul style={{ display: "flex", flexDirection: "column", gap: 12, marginBottom: 36 }}>
@@ -406,7 +406,7 @@ export default function LandingPage() {
       <section style={{ background: "#0F172A" }}>
         <div className="max-w-7xl mx-auto px-6 md:px-12 pt-16 pb-4">
           <span style={{ fontSize: 9, fontWeight: 600, letterSpacing: "0.22em", textTransform: "uppercase", color: "rgba(255,255,255,0.3)", display: "block", marginBottom: 16 }}>
-            Por qué BeEnergy
+            Por qué US Power
           </span>
         </div>
         <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)" }} className="max-w-7xl mx-auto px-6 md:px-12 pb-16">
@@ -489,7 +489,7 @@ export default function LandingPage() {
               <h2 style={{ fontSize: "clamp(1.4rem, 2.8vw, 1.875rem)", fontWeight: 700, letterSpacing: "-0.025em", color: "#0F172A", marginBottom: 20 }}>
                 Sobre los activos y el proceso.
               </h2>
-              <a href="mailto:info@beenergy.com"
+              <a href="mailto:info@uspower.com"
                 className="inline-flex items-center gap-1.5 text-sm font-medium"
                 style={{ color: "#00537A", fontSize: 13, textDecoration: "none" }}>
                 ¿Más preguntas? Contactanos
@@ -531,7 +531,7 @@ export default function LandingPage() {
         <div className="max-w-7xl mx-auto px-6 md:px-12" style={{ position: "relative", zIndex: 1, display: "flex", flexDirection: "column", gap: 0 }}>
           <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
             <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
-              <img src="/beenergy-assets/BeEnergy-logo-white.svg" alt="BeEnergy" style={{ height: 22 }} />
+              <img src="/us-power-assets/us-power-logo-white.svg" alt="US Power" style={{ height: 22 }} />
               <div style={{ width: 4, height: 4, borderRadius: "50%", background: "#00537A" }} />
               <span style={{ fontSize: 9, color: "rgba(255,255,255,0.2)", letterSpacing: "0.15em", textTransform: "uppercase" }}>
                 © 2026
@@ -540,17 +540,7 @@ export default function LandingPage() {
             <div style={{ display: "flex", alignItems: "center", gap: 20 }}>
               {[
                 {
-                  href: "https://linkedin.com/company/111951545",
-                  label: "LinkedIn",
-                  icon: <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" /></svg>,
-                },
-                {
-                  href: "https://x.com/BeEnergyCom",
-                  label: "X",
-                  icon: <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" /></svg>,
-                },
-                {
-                  href: "https://github.com/BuenDia-Builders/be-energy",
+                  href: "https://github.com/us-power",
                   label: "GitHub",
                   icon: <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z" /></svg>,
                 },

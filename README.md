@@ -1,8 +1,8 @@
-# BeEnergy
+# US Power
 
-> **Renewable energy cooperatives deserve proof. BeEnergy puts it on-chain.**
+> **Renewable energy cooperatives deserve proof. US Power puts it on-chain.**
 
-[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-be--energy--six.vercel.app-00537A?style=for-the-badge)](https://be-energy-six.vercel.app)
+[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-be--energy--six.vercel.app-00537A?style=for-the-badge)](https://us-power-six.vercel.app)
 [![Network](https://img.shields.io/badge/Stellar-Testnet-FFD500?style=for-the-badge&logo=stellar)](https://stellar.org)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue?style=for-the-badge)](LICENSE)
 
@@ -29,20 +29,20 @@ Renewable energy cooperatives generate clean energy every day — but **they can
 
 Meanwhile, companies and funds with ESG commitments are actively looking for verifiable renewable energy claims — and can't find them.
 
-**The gap between cooperatives and buyers is a trust gap. BeEnergy closes it.**
+**The gap between cooperatives and buyers is a trust gap. US Power closes it.**
 
 ---
 
 ## The Solution
 
-BeEnergy is a cooperative management dashboard + on-chain certification infrastructure on **Stellar**.
+US Power is a cooperative management dashboard + on-chain certification infrastructure on **Stellar**.
 
 Every kWh registered by a cooperative becomes a **proto-certificate**: a verifiable, on-chain claim tied to a real meter, a real cooperative, and a real time period.
 
 ```
 Smart meter sends reading → POST /api/meters/readings
          ↓
-BeEnergy validates & mints token on Stellar (1 token = 1 kWh)
+US Power validates & mints token on Stellar (1 token = 1 kWh)
          ↓
 Certificate is assigned to cooperative members
          ↓
@@ -62,10 +62,10 @@ No intermediaries. No PDFs. No trust required — the chain is the proof.
 ### For Cooperatives
 
 ```
-1. Register cooperative on BeEnergy
+1. Register cooperative on US Power
 2. Add smart meters (physical IoT devices)
 3. Meters send generation readings automatically via API
-4. BeEnergy mints proto-certificates on Stellar
+4. US Power mints proto-certificates on Stellar
 5. Manage members, view generation stats, track certificates
 ```
 
@@ -80,13 +80,13 @@ No intermediaries. No PDFs. No trust required — the chain is the proof.
 
 ### Authentication
 
-BeEnergy supports two access methods — no setup required to try:
+US Power supports two access methods — no setup required to try:
 
 **Email + Password** (for admins, buyers, internal team)
 ```
 /login → Supabase auth → JWT issued → Stellar wallet auto-assigned → /dashboard
 ```
-> Try it: `demo@beenergy.coop` / `Demo2026!`
+> Try it: `demo@uspower.coop` / `Demo2026!`
 
 **Stellar Wallet** (for cooperatives with Freighter / xBull / Lobstr)
 ```
@@ -131,15 +131,15 @@ We validated the problem directly with:
 - **ESG compliance teams** — confirmed demand for verifiable, auditable certificates
 - **Climate program coordinators** — confirmed interest in blockchain-based proof over PDFs
 
-Key insight: the bottleneck isn't production — cooperatives generate plenty. The bottleneck is **verifiable proof**. BeEnergy solves exactly that.
+Key insight: the bottleneck isn't production — cooperatives generate plenty. The bottleneck is **verifiable proof**. US Power solves exactly that.
 
 ---
 
 ## Live Demo
 
-**Platform:** https://be-energy-six.vercel.app
+**Platform:** https://us-power-six.vercel.app
 **Network:** Stellar Testnet
-**Demo login:** `demo@beenergy.coop` / `Demo2026!`
+**Demo login:** `demo@uspower.coop` / `Demo2026!`
 
 **[Watch Demo Video →](https://www.youtube.com/watch?v=c5avxNUI18Y)**
 
@@ -165,7 +165,7 @@ Key insight: the bottleneck isn't production — cooperatives generate plenty. T
 ## Monorepo Structure
 
 ```
-be-energy/
+us-power/
 ├── apps/
 │   ├── contracts/           # Soroban smart contracts (Rust)
 │   │   ├── energy_token/         # SEP-41 certificate token
@@ -186,8 +186,8 @@ be-energy/
 ## Quick Start
 
 ```bash
-git clone https://github.com/BuenDia-Builders/be-energy.git
-cd be-energy
+git clone https://github.com/us-power/us-power.git
+cd us-power
 pnpm install
 pnpm dev
 ```
@@ -215,9 +215,9 @@ cargo test
 
 ## Planned Stellar Ecosystem Integrations
 
-BeEnergy is designed to plug into Stellar's growing DeFi and payments ecosystem. Planned integrations from the [SCF Integration Track](https://stellar.gitbook.io/scf-handbook/scf-awards/build-award/integration-track/integration-list):
+US Power is designed to plug into Stellar's growing DeFi and payments ecosystem. Planned integrations from the [SCF Integration Track](https://stellar.gitbook.io/scf-handbook/scf-awards/build-award/integration-track/integration-list):
 
-| Integration | What it unlocks for BeEnergy |
+| Integration | What it unlocks for US Power |
 |-------------|------------------------------|
 | **[DeFindex](https://defindex.io)** | Cooperatives earn yield on certificate proceeds held in vaults — idle capital works while certificates wait for buyers |
 | **[Blend Protocol](https://blend.capital)** | Use certificates as collateral for credit lines — cooperatives access working capital without selling |
@@ -250,4 +250,4 @@ Apache-2.0 — See [LICENSE](LICENSE)
 
 ---
 
-**Built on Stellar · BuenDia Builders 2026**
+**Built on Stellar · US Power 2026**

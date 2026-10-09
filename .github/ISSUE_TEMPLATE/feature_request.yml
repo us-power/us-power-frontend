@@ -1,5 +1,5 @@
 name: "✨ Feature Request"
-description: "Suggest a new feature or improvement for BeEnergy"
+description: "Suggest a new feature or improvement for US Power"
 title: "[FEAT]: "
 labels:
   - feature
@@ -8,7 +8,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for your interest in improving BeEnergy! Please provide as much detail as possible so we can properly evaluate your idea.
+        Thanks for your interest in improving US Power! Please provide as much detail as possible so we can properly evaluate your idea.
 
   - type: textarea
     id: summary
