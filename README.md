@@ -8,15 +8,6 @@
 
 ---
 
-## 🏆 Recognition
-
-| Award | Event |
-|-------|-------|
-| 🥇 **Featured Project** | [Stellar Buenos Aires Hackathon 2025](https://dorahacks.io/buidl/36793) |
-| 🏅 **Innovation Certificate** | Stellar Jury — Buenos Aires 2025 |
-| 🌍 **Selected** | [ClimateLaunchpad 2026](https://climatelaunchpad.org/) — world's largest green startup competition, powered by Climate-KIC & Chrysalis LEAP |
-
----
 
 ## The Problem
 
