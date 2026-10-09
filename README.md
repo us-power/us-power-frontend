@@ -1,13 +1,5 @@
 # US Power
 
-> **Renewable energy cooperatives deserve proof. US Power puts it on-chain.**
-
-[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-be--energy--six.vercel.app-00537A?style=for-the-badge)](https://us-power-six.vercel.app)
-[![Network](https://img.shields.io/badge/Stellar-Testnet-FFD500?style=for-the-badge&logo=stellar)](https://stellar.org)
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue?style=for-the-badge)](LICENSE)
-
----
-
 
 ## The Problem
 
