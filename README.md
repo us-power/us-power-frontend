@@ -186,7 +186,7 @@ us-power/
 ## Quick Start
 
 ```bash
-git clone https://github.com/us-power/us-power.git
+git clone https://github.com/us-power/us-power-frontend.git
 cd us-power
 pnpm install
 pnpm dev
